@@ -15,9 +15,9 @@
 #
 
 # Inherit from oneplus sdm845-common
--include device/oneplus/sdm845-common/BoardConfigCommon.mk
+-include vendor/oneplus/sdm845-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/oneplus/enchilada
+DEVICE_PATH := vendor/oneplus
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
@@ -26,4 +26,4 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 TARGET_KERNEL_CONFIG := enchilada_defconfig
 
 # inherit from the proprietary version
--include vendor/oneplus/enchilada/BoardConfigVendor.mk
+-include vendor/oneplus/sdm845-common/BoardConfigVendor.mk

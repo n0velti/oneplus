@@ -30,4 +30,4 @@ export VENDOR=oneplus
 
 export DEVICE_BRINGUP_YEAR=2018
 
-"./../../vendor/${VENDOR}/${DEVICE_COMMON}/setup-makefiles.sh" "$@"
+"./../../vendor/${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"

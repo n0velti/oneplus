@@ -16,7 +16,7 @@
 
 BOARD_VENDOR := oneplus
 
-COMMON_PATH := device/oneplus/sdm845-common
+COMMON_PATH := vendor/oneplus/sdm845-common
 
 TARGET_SPECIFIC_HEADER_PATH := $(COMMON_PATH)/include
 

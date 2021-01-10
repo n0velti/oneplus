@@ -24,7 +24,7 @@ $(call inherit-product, vendor/oneplus/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/pebble/config/common_full_phone.mk)
 
-PRODUCT_NAME := oneplus
+PRODUCT_NAME := lineage_enchilada
 PRODUCT_DEVICE := oneplus
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
