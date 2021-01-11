@@ -17,6 +17,7 @@
  */
 
 soong_namespace {
+	imports: ["hardware/qcom/bootctrl"]
 }
 
 cc_prebuilt_library_shared {

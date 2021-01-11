@@ -77,7 +77,8 @@ PRODUCT_COPY_FILES += \
 # Boot control
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-impl.recovery \
-    bootctrl.sdm845.recovery
+    bootctrl.sdm845.recovery \
+    
 
 PRODUCT_PACKAGES_DEBUG += \
     bootctl
